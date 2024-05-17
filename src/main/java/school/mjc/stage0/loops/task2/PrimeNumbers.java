@@ -14,6 +14,7 @@ public class PrimeNumbers {
             if (isPrime){
                 System.out.println(counter);
             }
+            counter++;
         }
     }
 }
