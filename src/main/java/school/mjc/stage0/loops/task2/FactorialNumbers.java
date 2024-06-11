@@ -3,10 +3,10 @@ package school.mjc.stage0.loops.task2;
 public class FactorialNumbers {
     public void printFactorialRow(int printToInclusive) {
         int counter = 1;
-        int n = 0;
-        while (counter <= printToInclusive){
-            n *= counter;
+        int n = 1;
+        while (counter <= printToInclusive + 1){
             System.out.println(n);
+            n *= counter;
             counter++;
         }
     }
