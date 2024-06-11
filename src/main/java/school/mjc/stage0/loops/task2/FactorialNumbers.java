@@ -2,12 +2,12 @@ package school.mjc.stage0.loops.task2;
 
 public class FactorialNumbers {
     public void printFactorialRow(int printToInclusive) {
-        int counter = 0;
+        int counter = 1;
         int n = 0;
-        while (counter < printToInclusive){
-            System.out.println(counter - n);
+        while (counter <= printToInclusive){
+            n *= counter;
+            System.out.println(n);
             counter++;
-            n++;
         }
     }
 }
